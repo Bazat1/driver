@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DriverDirectory</class>
+ <widget class="QWidget" name="DriverDirectory">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Справочник водителей</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableWidget" name="table">
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>ФИО</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Номер телефона</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Стаж</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>ID автомобиля</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Статус</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_fio">
+     <property name="text">
+      <string>ФИО:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="fio_input"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_phone">
+     <property name="text">
+      <string>Номер телефона:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="phone_input"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_experience">
+     <property name="text">
+      <string>Стаж:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="experience_input"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_car_id">
+     <property name="text">
+      <string>ID автомобиля:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="car_id_input"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_status">
+     <property name="text">
+      <string>Статус:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="status_input"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="add_button">
+       <property name="text">
+        <string>Добавить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="delete_button">
+       <property name="text">
+        <string>Удалить</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
